@@ -1,0 +1,74 @@
+@media screen and (max-width: 670px) {
+  #main h1 {
+    font-size: 36px;
+  }
+  #main h2 {
+    font-size: 22px;
+  }
+  #main p {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  /* Header  */
+  .logo {
+    width: 100%;
+  }
+
+  .logo h1 {
+    text-align: center;
+  }
+  .header-menu {
+    float: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 65px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    background-color: rgb(87, 177, 147);
+    opacity: 0.9;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+
+  .list-menu {
+    display: block;
+  }
+  .list-menu a {
+    font-size: 30px;
+    color: black;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+  }
+  nav input:checked ~ .header-menu {
+    height: fit-content;
+  }
+  .navbar-toogle {
+    display: block;
+  }
+  .about-us ul {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Footer*/
+  .footer-list ul {
+    flex-direction: column;
+  }
+  .regards {
+    display: block;
+    text-align: center;
+  }
+  .regards .from {
+    padding: 10px 0;
+    font-size: 16px;
+  }
+  .regards .divider-custom-line:first-child,
+  .regards .divider-custom-line:last-child {
+    margin: auto;
+    height: 2px;
+  }
+}

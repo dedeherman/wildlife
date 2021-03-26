@@ -1,0 +1,289 @@
+* {
+  font-family: "Lato", BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  box-sizing: border-box;
+  color: #000;
+}
+html,
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+div {
+  margin: 0;
+}
+#main {
+  width: 100%;
+  position: relative;
+  /* border: 2px solid #000; */
+  text-align: center;
+  padding: 100px 15px;
+  margin-bottom: 50px;
+}
+#main h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+#main h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+#main p {
+  width: 70%;
+  margin: auto;
+  font-family: "Segoe UI";
+  font-size: 26px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  letter-spacing: 2px;
+}
+.regards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.regards .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #000;
+  border-radius: 1rem;
+  border-color: #000;
+}
+.regards .divider-custom-line:first-child {
+  margin-right: 1rem;
+}
+.regards .divider-custom-line:last-child {
+  margin-left: 1rem;
+}
+.regards .from {
+  font-family: Segoe UI Symbol;
+  font-size: 24px;
+}
+#contents {
+  position: relative;
+  /* border: 2px solid #000; */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.contents > .item {
+  position: relative;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+  border-bottom: 1px solid #ddd;
+}
+.say-hello {
+  margin-bottom: 20px;
+}
+.item .contributor {
+  position: relative;
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+.item > .img-area,
+.item > .paragraph-area {
+  position: relative;
+  float: left;
+  /* border: 2px solid #000; */
+  font-family: "Segoe UI";
+}
+.item.right > .img-area {
+  text-align: left;
+  padding-left: 50px;
+}
+.item.left > .img-area {
+  text-align: right;
+  padding-right: 50px;
+}
+.item.right > .img-area,
+.item.left > .img-area {
+  width: 50%;
+}
+.item .img-area img {
+  max-width: 100%;
+}
+.item.right > .paragraph-area,
+.item.left > .paragraph-area {
+  font-family: "Segoe UI";
+  width: 50%;
+  padding: 0 50px 20px 50px;
+}
+.item.right > .paragraph-area {
+  text-align: right;
+}
+.paragraph-area > .article {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.paragraph-area > .additional-article {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.clear {
+  float: none;
+  clear: both;
+}
+header {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  /* border: 2px solid #000; */
+
+  /* tambahan */
+  background-color: aquamarine;
+  top: 0;
+  z-index: 10;
+  /* tambahan */
+}
+
+/* CSS start header-menu */
+.logo {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.logo h1 {
+  font-size: 28px;
+  color: black;
+}
+
+.header-menu {
+  /* width: 100%; */
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 60px;
+  color: black;
+  float: right;
+}
+
+.list-menu {
+  display: block;
+}
+
+.list-menu a {
+  float: left;
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  transition: all 0.5s;
+}
+a {
+  text-decoration: none;
+}
+.navbar-toogle {
+  display: none;
+}
+.navbar-icon {
+  position: absolute;
+  right: 5%;
+  top: 28%;
+}
+
+nav input {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  right: 10px;
+  top: 20px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* CSS end Header */
+
+/* CSS start Footer */
+footer {
+  width: 100%;
+  background-color: aquamarine;
+  padding: 20px 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: black;
+  font-family: "Segoe UI";
+}
+
+.footer-list ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 20px;
+  justify-content: space-around;
+}
+.footer-list li {
+  padding: 2em;
+  color: #e98a8a;
+}
+.footer-list h3 {
+  display: block;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+  color: black;
+}
+
+.footer-list p {
+  text-align: justify;
+  margin: auto;
+  font-family: "Segoe UI";
+  font-size: 26px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.footer-list span {
+  margin-right: 5px;
+}
+
+.tools {
+  right: 50%;
+}
+
+.copyright {
+  width: 100%;
+  text-align: end;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.about-us {
+  padding: 15px;
+}
+
+.about-us h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.about-us ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us li {
+  padding: 10px;
+  margin: 0 10px;
+  list-style: none;
+}
+
+.about-us p {
+  text-align: justify;
+  margin: auto;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  letter-spacing: 1px;
+}
