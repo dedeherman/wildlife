@@ -224,18 +224,23 @@ h1, h2, h3, h4, h5, p, div {
 	/* height: 100%; */
 	min-height: 100% !important;
 }
+.contents > .item:nth-child(1)#orca,
 .contents > .item:nth-child(1) {
 	background-image: url("../images/bg_orca.png");
 }
+.contents > .item:nth-child(1)#mustela-nivalis,
 .contents > .item:nth-child(2) {
 	background-image: url("../images/bg_mustela_nivalis.png");
 }
+.contents > .item:nth-child(1)#lion,
 .contents > .item:nth-child(3) {
 	background-image: url("../images/bg_lion.png");
 }
-.contents > .item:nth-child(4) {
+.contents > .item:nth-child(1)#tarsius,
+.contents > .item:nth-child(4){
 	background-image: url("../images/bg_tarsius.png");
 }
+.contents > .item:nth-child(1)#barn-owl,
 .contents > .item:nth-child(5) {
 	background-image: url("../images/bg_barn_owl.png");
 }
