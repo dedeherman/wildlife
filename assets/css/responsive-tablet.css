@@ -1,4 +1,25 @@
 @media (max-width: 1000px){
+	.trigger-nav {
+		display: none;
+	}
+	.left-nav {
+		bottom: 0;
+		top: initial;
+		margin: initial;
+	}
+	.left-nav ul li a {
+		font-size: 35px;
+	}
+	#header .navigation {
+		background-color: rgb(255 255 255 / 90%);
+		box-shadow: 0 2px 15px 10px rgb(44 63 42 / 75%);
+	}
+	#header .navigation li > a {
+		font-size: 18px;
+	}
+	#header {
+		top: 0;
+	}
 	#main h1 {
 		font-size: 50px;
 	}
@@ -12,4 +33,67 @@
 	.regards .from {
 		font-size: 18px;
 	}
+	.contents > .item {
+		padding-top: 100px;
+	}
+	.item.left > .img-area {
+		text-align: right;
+		padding: 0;
+	}
+	.item.right > .img-area{
+		text-align: left;
+		padding-left: 50px;
+	}
+	.item.left > .img-area,
+	.item.right > .img-area{
+		width: 30%;
+		padding: 0;
+	}
+	.item .img-area img {
+		border: 2px solid #FFF;
+	}
+	.item.left > .paragraph-area,
+	.item.right > .paragraph-area{
+		font-family: "Segoe UI";
+		width: 70%;
+	}
+	.item.left > .paragraph-area {
+		text-align: justify;
+		padding: 0 0 0 25px;
+	}
+	.item.right > .paragraph-area {
+		text-align: justify;
+		padding: 0 25px 0 0;
+	}
+	.paragraph-area > .article {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.contributor {
+		font-size: 14px;
+	}
+	.footer-list {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.footer-list ul {
+		grid-template-columns: auto;
+		grid-template-rows: auto;
+	}
+	.about-us p {
+		margin: auto;
+		font-size: 20px;
+		padding: 0 25px;
+	}
+	.item-galery > li > img {
+		border: 2px solid #FFF;
+	}
+	.paragraph-gallery {
+		font-size: 20px;
+		text-align: justify;
+		margin-bottom: 50px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
 }

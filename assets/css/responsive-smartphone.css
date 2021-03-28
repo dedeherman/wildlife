@@ -1,74 +1,136 @@
-@media screen and (max-width: 670px) {
-  #main h1 {
-    font-size: 36px;
-  }
-  #main h2 {
-    font-size: 22px;
-  }
-  #main p {
-    width: 100%;
-    font-size: 22px;
-  }
-
-  /* Header  */
-  .logo {
-    width: 100%;
-  }
-
-  .logo h1 {
-    text-align: center;
-  }
-  .header-menu {
-    float: none;
-    position: fixed;
-    z-index: 10;
-    left: 0;
-    right: 0;
-    top: 65px;
-    bottom: 100%;
-    width: auto;
-    height: auto;
-    background-color: rgb(87, 177, 147);
-    opacity: 0.9;
-    overflow: hidden;
-    transition: all 0.5s;
-  }
-
-  .list-menu {
-    display: block;
-  }
-  .list-menu a {
-    font-size: 30px;
-    color: black;
-    width: 100%;
-    text-align: center;
-    line-height: 100px;
-  }
-  nav input:checked ~ .header-menu {
-    height: fit-content;
-  }
-  .navbar-toogle {
-    display: block;
-  }
-  .about-us ul {
-    display: flex;
-    flex-direction: column;
-  }
-  /* Footer*/
-  .footer-list ul {
-    flex-direction: column;
-  }
-  .regards {
-    display: block;
-    text-align: center;
-  }
-  .regards .from {
-    padding: 10px 0;
-    font-size: 16px;
-  }
-  .regards .divider-custom-line:first-child,
-  .regards .divider-custom-line:last-child {
-    margin: auto;
-    height: 2px;
-  }
+@media (max-width: 670px){
+	.left-nav ul li {
+		float: left;
+	}
+	.left-nav ul li a {
+		font-size: 35px;
+	}
+	#main h1 {
+		font-size: 36px;
+	}
+	#main h2 {
+		font-size: 22px;
+	}
+	#main p {
+		width: 100%;
+		font-size: 22px;
+	}
+	#main .inner {
+		padding-top: 100px;
+	}
+	.regards {
+		display: block;
+		text-align: center;
+	}
+	.regards .from {
+		padding: 10px 0;
+		font-size: 16px;
+	}
+	.regards .divider-custom-line:first-child,
+	.regards .divider-custom-line:last-child {
+		margin: auto;
+		height: 2px;
+	}
+	#header .icon-nav > span {
+		display: none;
+	}
+	.icon-nav {
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 71px;
+		background-size: 50px;
+	}
+	.icon-nav-orca {
+		background-image: url("../images/icon_black_orca.png");
+	}
+	.icon-nav-lion {
+		background-image: url("../images/icon_black_lion.png");
+	}
+	.icon-nav-mustela-nivalis {
+		background-image: url("../images/icon_black_mustela_nivalis.png");
+	}
+	.icon-nav-tarsius {
+		background-image: url("../images/icon_black_tarsius.png");
+	}
+	.icon-nav-owl {
+		background-image: url("../images/icon_black_barn_owl.png");
+	}
+	.icon-nav-orca:hover {
+		background-image: url("../images/icon_white_orca.png");
+	}
+	.icon-nav-lion:hover {
+		background-image: url("../images/icon_white_lion.png");
+	}
+	.icon-nav-mustela-nivalis:hover {
+		background-image: url("../images/icon_white_mustela_nivalis.png");
+	}
+	.icon-nav-tarsius:hover {
+		background-image: url("../images/icon_white_tarsius.png");
+	}
+	.icon-nav-owl:hover {
+		background-image: url("../images/icon_white_barn_owl.png");
+	}
+	.contents > .item {
+		padding-top: 100px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.item.left > .img-area,
+	.item.right > .img-area {
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.item.left > .paragraph-area,
+	.item.right > .paragraph-area,
+	.item.left > .img-area,
+	.item.right > .img-area {
+		width: 100%;
+		float: none;
+		padding: 0;
+	}
+	.item.left > .img-area,
+	.item.right > .img-area {
+		text-align: center;
+	}
+	.say-hello {
+		font-size: 20px;
+		text-align: center;
+	}
+	.paragraph-area > .article {
+		font-size: 18px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.item .contributor {
+		position: relative;
+		padding-top: 20px;
+	}
+	.footer-list {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.text-about-us .additional-test {
+		margin-bottom: 50px;
+	}
+	.text-about-us .additional-test,
+	.text-about-us .more-description {
+		width: 100%;
+	}
+	.item-galery > li > img {
+		border: 2px solid #FFF;
+	}
+	.item-galery {
+		grid-template-columns: repeat(1, auto);
+	}
+	.item-galery > li:nth-child(odd) {
+		text-align: center;
+		padding-right: 0;
+	}
+	.item-galery > li:nth-child(even) {
+		text-align: center;
+		padding-left: 0;
+	}
+	.about-us p {
+		font-size: 16px;
+	}
 }

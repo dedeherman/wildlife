@@ -1,0 +1,26 @@
+{
+	"website_name": "wildlife",
+	"website_address": "https://wildlife.netinfodm.com/",
+	"teams_project": [
+		{ 
+			"name": "ADHI SENO SISWOYO",
+			"no_reg_dts": ""
+		},
+		{ 
+			"name": "SILMIE VIDIYA FANI",
+			"no_reg_dts": "0970777330-1"
+		},
+		{ 
+			"name": "DEDE HERMAN",
+			"no_reg_dts": "0970777121-5"
+		},
+		{ 
+			"name": "NAUFAL FIRANSYAH",
+			"no_reg_dts": "0970777121-257"
+		},
+		{ 
+			"name": "NUR MUHAMMAD IKHSAN",
+			"no_reg_dts": "0970777131-137"
+		}
+	]
+}
