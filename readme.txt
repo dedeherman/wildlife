@@ -1,4 +1,6 @@
-Link : https://wildlife.netinfodm.com/
+Link Code : https://github.com/dedeherman/wildlife
+Link Github : https://dedeherman.github.io/wildlife/
+Link Testing : https://wildlife.netinfodm.com/
 
 We were a team in a web development class organized by Kominfo and partnered
 with Progate. The program of this commission called Digital Talent Scholarship,
