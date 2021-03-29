@@ -11,9 +11,9 @@ patiently taught us the skill, whether it was hard skills or soft skills,
 Ranging from HTML, CSS, JavaScript, and also how
 to be a good team on a project.
 
-We Are The Best Team !Best view
+We Are The Best Team !
 
-
+Best view
 ( Chrome latest version )
 1920 x 1080
 
